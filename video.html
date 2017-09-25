@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dash.js" type="text/javascript"></script> 
+    <script src="js/hls.js" type="text/javascript"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+      <div class="center-block">
+       <div class=" col-sm-12 col-md-12 col-lg-12" style="padding: 0;">
+        <video width="100%" id="video" autoplay  data-dashjs-player controls ></video>
+      </div>
+       </div>
+    </div>
+    <div class="row">
+      <div style="background: #76ced6;padding: 5px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <input type="button" id="txtURL" value="https://bitmovin-a.akamaihd.net/content/playhouse-vr/m3u8s/105560.m3u8" class="col-xs-12 col-md alert alert-info" />
+              <input class="col-xs-12 btn btn-info" type="button" id="btnLoad" value="Загрузить " /><br />
+            <input style="margin-top: 14px;" class="col-xs-12 alert alert-info" type="button" id="txtURL2" value="https://bitmovin-a.akamaihd.net/content/playhouse-vr/mpds/105560.mpd" /> 
+            <input class="col-xs-12 btn btn-info" type="button" id="btnLoad2" value="Загрузить " /><br />
+      </div>
+    </div>
+</div>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
